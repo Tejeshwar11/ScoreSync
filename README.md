@@ -1,4 +1,4 @@
-# ScoreSync: Complete DeFi Credit Platform
+# Cred-Score: Complete DeFi Credit Platform
 
 A decentralized finance (DeFi) credit platform built on the Shardeum blockchain that combines zero-knowledge verification, AI agent wallets, and flexible credit lines for transparent financial access.
 
@@ -280,7 +280,7 @@ For issues and questions:
 
 ## 📞 Contact
 
-- **Email**: support@scoresync.com
+- **Email**: support@cred-score.com
 - **Twitter**: @CredFiDeFi
 - **Discord**: [Join Community](https://discord.gg/credfidefi)
 

@@ -12,7 +12,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "ScoreSync | DeFi Credit Platform",
+  title: "Cred-Score | DeFi Credit Platform",
   description: "Complete DeFi credit platform with AI agents, marketplace, and flexible credit lines on Sepolia",
   generator: "v0.app",
   icons: {

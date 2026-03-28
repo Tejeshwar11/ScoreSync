@@ -149,10 +149,10 @@ export default function SettingsPage() {
         <h3 className="font-bold text-foreground mb-4">About</h3>
         <div className="space-y-2 text-sm text-muted-foreground">
           <p>
-            <strong className="text-foreground">ScoreSync v1.0</strong>
+            <strong className="text-foreground">Cred-Score v1.0</strong>
           </p>
           <p>DeFi Credit Platform on Sepolia</p>
-          <p>© 2026 ScoreSync. All rights reserved.</p>
+          <p>© 2026 Cred-Score. All rights reserved.</p>
         </div>
       </Card>
     </div>

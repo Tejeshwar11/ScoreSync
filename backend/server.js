@@ -1,5 +1,5 @@
 /**
- * Backend server for ScoreSync platform
+ * Backend server for Cred-Score platform
  * Handles vlayer API proxy, Vouch verification, and smart contract interactions
  * Handles CORS and proxies requests to vlayer Web Prover
  */

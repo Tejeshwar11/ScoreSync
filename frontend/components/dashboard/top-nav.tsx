@@ -36,7 +36,7 @@ export function TopNav({ walletAddress, creditScore = 0, onMenuToggle, onDisconn
           <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-accent group-hover:rotate-6 transition-transform duration-300 shadow-lg shadow-primary/20 flex items-center justify-center">
             <div className="w-5 h-5 border-2 border-white/50 rounded-full animate-pulse" />
           </div>
-          <span className="font-bold text-xl text-white tracking-tighter">ScoreSync</span>
+          <span className="font-bold text-xl text-white tracking-tighter">Cred-Score</span>
         </div>
 
         {/* Desktop navigation */}
