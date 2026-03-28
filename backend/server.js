@@ -44,16 +44,24 @@ app.get('/api/user/:address', async (req, res) => {
     let dataSource = 'blockchain';
 
     try {
-      // Fetch real data from primary blockchain with extended timeout
+      // Fetch real data from primary blockchain with timeout
       const provider = new ethers.JsonRpcProvider(RPC_URL, {
         chainId: CHAIN_ID,
         name: 'blockchain-provider'
       });
 
-      // Fetch balance and transaction count in parallel
-      const [balanceResult, txCountResult] = await Promise.all([
-        provider.getBalance(address),
-        provider.getTransactionCount(address)
+      // Timeout promise (5 seconds)
+      const timeoutPromise = new Promise((_, reject) =>
+        setTimeout(() => reject(new Error('Blockchain request timed out')), 5000)
+      );
+
+      // Fetch balance and transaction count with timeout
+      const [balanceResult, txCountResult] = await Promise.race([
+        Promise.all([
+          provider.getBalance(address),
+          provider.getTransactionCount(address)
+        ]),
+        timeoutPromise
       ]);
 
       balance = parseFloat(ethers.formatEther(balanceResult));

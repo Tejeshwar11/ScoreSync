@@ -1,6 +1,6 @@
 "use client";
 import { cn } from "@/lib/utils";
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 export const Meteors = ({
   number,
@@ -9,10 +9,24 @@ export const Meteors = ({
   number?: number;
   className?: string;
 }) => {
-  const meteors = new Array(number || 20).fill(true);
+  const count = number || 20;
+  const [styles, setStyles] = useState<Array<{ left: string; animationDelay: string; animationDuration: string }>>([]);
+
+  useEffect(() => {
+    setStyles(
+      Array.from({ length: count }, () => ({
+        left: Math.floor(Math.random() * 800 - 400) + "px",
+        animationDelay: (Math.random() * 0.6 + 0.2).toFixed(2) + "s",
+        animationDuration: Math.floor(Math.random() * 8 + 2) + "s",
+      }))
+    );
+  }, [count]);
+
+  if (styles.length === 0) return null;
+
   return (
     <>
-      {meteors.map((el, idx) => (
+      {styles.map((style, idx) => (
         <span
           key={"meteor" + idx}
           className={cn(
@@ -22,9 +36,7 @@ export const Meteors = ({
           )}
           style={{
             top: 0,
-            left: Math.floor(Math.random() * (400 - -400) + -400) + "px",
-            animationDelay: Math.random() * (0.8 - 0.2) + 0.2 + "s",
-            animationDuration: Math.floor(Math.random() * (10 - 2) + 2) + "s",
+            ...style,
           }}
         ></span>
       ))}
