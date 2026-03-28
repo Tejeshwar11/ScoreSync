@@ -1,6 +1,6 @@
-# Cred-Fi Backend
+# ScoreSync Backend
 
-Express.js backend API with smart contracts for the Cred-Fi DeFi credit platform.
+Express.js backend API with smart contracts for the ScoreSync DeFi credit platform.
 
 ## 📁 Structure
 

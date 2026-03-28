@@ -1,6 +1,6 @@
-# Cred-Fi Frontend
+# ScoreSync Frontend
 
-Next.js-based frontend for the Cred-Fi DeFi credit platform with real-time wallet integration and interactive dashboard.
+Next.js-based frontend for the ScoreSync DeFi credit platform with real-time wallet integration and interactive dashboard.
 
 ## 🚀 Quick Start
 

@@ -7,7 +7,7 @@ const projectId = process.env.NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID
 
 const connectors = [
   injected({ target: 'metaMask' }),
-  coinbaseWallet({ appName: "Cred-Fi" }),
+  coinbaseWallet({ appName: "ScoreSync" }),
   ...(projectId
     ? [walletConnect({ projectId })]
     : []),

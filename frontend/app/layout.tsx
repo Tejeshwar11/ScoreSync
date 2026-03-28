@@ -5,14 +5,14 @@ import { Analytics } from "@vercel/analytics/next"
 import { Providers } from "@/components/providers"
 import "./globals.css"
 
-const inter = Inter({ 
+const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
   display: "swap",
 })
 
 export const metadata: Metadata = {
-  title: "Cred-Fi | DeFi Credit Platform",
+  title: "ScoreSync | DeFi Credit Platform",
   description: "Complete DeFi credit platform with AI agents, marketplace, and flexible credit lines on Sepolia",
   generator: "v0.app",
   icons: {

@@ -83,7 +83,7 @@ export function DashboardClient() {
     return (
       <div className="space-y-8">
         <div>
-          <h1 className="text-4xl font-bold text-balance">Welcome to Cred-Fi</h1>
+          <h1 className="text-4xl font-bold text-balance">Welcome to ScoreSync</h1>
           <p className="text-muted-foreground mt-2">Connect your wallet to get started</p>
         </div>
         <Card className="p-12 text-center bg-card/50 border-dashed">

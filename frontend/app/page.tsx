@@ -90,7 +90,7 @@ export default function LandingPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
           <div className="flex items-center gap-2 group cursor-pointer">
             <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-accent group-hover:rotate-12 transition-transform duration-300 shadow-lg shadow-primary/20"></div>
-            <span className="font-bold text-lg text-foreground tracking-tight">Cred-Fi</span>
+            <span className="font-bold text-lg text-foreground tracking-tight">ScoreSync</span>
           </div>
           <div className="hidden md:flex items-center gap-8">
             <a href="#features" className="text-sm text-muted-foreground hover:text-primary transition-colors">Features</a>
@@ -245,7 +245,7 @@ export default function LandingPage() {
                 <span className="text-primary italic">Financial Autonomy?</span>
               </h2>
               <p className="text-xl text-white/60 mb-10 max-w-2xl leading-relaxed">
-                Join the thousands of users leveraging Cred-Fi's autonomous credit layers on Sepolia and beyond.
+                Join the thousands of users leveraging ScoreSync's autonomous credit layers on Sepolia and beyond.
               </p>
               <div className="flex gap-4">
                 <Link href="/dashboard">
@@ -272,7 +272,7 @@ export default function LandingPage() {
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="flex items-center gap-2">
             <div className="w-6 h-6 rounded-lg bg-gradient-to-br from-primary to-accent"></div>
-            <span className="font-bold text-xl tracking-tighter">Cred-Fi</span>
+            <span className="font-bold text-xl tracking-tighter">ScoreSync</span>
           </div>
           <div className="flex gap-10 text-sm font-medium text-muted-foreground uppercase tracking-widest">
             <a href="#" className="hover:text-primary transition-colors">Documentation</a>

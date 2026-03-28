@@ -1,4 +1,4 @@
-# Cred-Fi: Complete DeFi Credit Platform
+# ScoreSync: Complete DeFi Credit Platform
 
 A decentralized finance (DeFi) credit platform built on the Shardeum blockchain that combines zero-knowledge verification, AI agent wallets, and flexible credit lines for transparent financial access.
 
@@ -58,8 +58,8 @@ A decentralized finance (DeFi) credit platform built on the Shardeum blockchain 
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/cred-fi.git
-cd cred-fi
+git clone https://github.com/Tejeshwar11/ScoreSync.git
+cd ScoreSync
 ```
 
 ### 2. Frontend Setup
@@ -85,7 +85,7 @@ npm start
 ## 📁 Project Structure
 
 ```
-cred-fi/
+ScoreSync/
 ├── frontend/                 # Next.js frontend application
 │   ├── app/                 # Next.js app directory
 │   │   ├── dashboard/       # Protected dashboard pages
@@ -280,7 +280,7 @@ For issues and questions:
 
 ## 📞 Contact
 
-- **Email**: support@cred-fi.com
+- **Email**: support@scoresync.com
 - **Twitter**: @CredFiDeFi
 - **Discord**: [Join Community](https://discord.gg/credfidefi)
 
@@ -292,7 +292,7 @@ For issues and questions:
 ## 🏗️ Architecture
 
 ```
-Cred-Fi/
+ScoreSync/
 ├── frontend/              # Next.js 14 web app
 │   ├── src/
 │   │   ├── app/          # Pages (landing, dashboard)

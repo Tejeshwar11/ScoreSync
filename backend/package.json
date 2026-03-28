@@ -1,7 +1,7 @@
 {
-  "name": "cred-fi-backend",
+  "name": "scoresync-backend",
   "version": "1.0.0",
-  "description": "Backend API for Cred-Fi credit platform",
+  "description": "Backend API for ScoreSync credit platform",
   "main": "server.js",
   "type": "commonjs",
   "scripts": {
